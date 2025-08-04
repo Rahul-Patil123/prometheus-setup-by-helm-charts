@@ -15,7 +15,6 @@ The repository includes:
 
 - `grafana-deployment.yaml` – Grafana Deployment configuration
 - `grafana-service.yaml` – ClusterIP Service exposing Grafana
-- `grafana-secret.yaml` – Secret containing Grafana configuration (credentials redacted)
 - `prometheus-deployment.yaml` – Prometheus StatefulSet
 - `prometheus-service.yaml` – Prometheus ClusterIP Service
 - `alertmanager.yaml` – Alertmanager StatefulSet
@@ -54,10 +53,6 @@ All files in this repo were collected using the following kubectl commands:
 kubectl get deploy prometheus-grafana -o yaml > grafana-deployment.yaml
 kubectl get svc  prometheus-grafana -o yaml > grafana-service.yaml
 ```
-# Grafana config secret (credentials redacted)
-```bash
-kubectl get secret prometheus-grafana -o yaml > grafana-secret.yaml
-```
 # Prometheus statefulset and service
 ```bash
 kubectl get statefulset prometheus-prometheus-kube-prometheus-prometheus -o yaml > prometheus-deployment.yaml
@@ -71,6 +66,20 @@ kubectl get statefulset alertmanager-prometheus-kube-prometheus-alertmanager -o 
 ```bash
 kubectl get servicemonitor -o yaml > servicemonitor.yaml
 ```
+# Dashboard Images
+### Login Page
+![Dashboard Images](<Screenshot 2025-08-04 222017.png>) 
+### Landing page
+![Dashboard Images](<Screenshot 2025-08-04 204510.png>) 
+### Minikube performance
+![Dashboard Images](<Screenshot 2025-08-04 204957.png>) 
+![Dashboard Images](<Screenshot 2025-08-04 205425.png>) 
+![Dashboard Images](<Screenshot 2025-08-04 205503.png>) 
+### Some additional dashboards
+![Dashboard Images](<Screenshot 2025-08-04 205540.png>) 
+![Dashboard Images](<Screenshot 2025-08-04 205933.png>) 
+![Dashboard Images](<Screenshot 2025-08-04 205959.png>) 
+![Dashboard Images](<Screenshot 2025-08-04 221947.png>)
 
 💡 Purpose of This Repo
 This repository is intended to:
@@ -83,9 +92,13 @@ Help others see what’s actually installed by kube-prometheus-stack
 
 🛠 Tools Used
 Windows 11
+
 Minikube with Docker driver
+
 kubectl
+
 Helm
+
 GitHub
 
 Thanks for checking this out!
