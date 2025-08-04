@@ -68,7 +68,7 @@ kubectl get servicemonitor -o yaml > servicemonitor.yaml
 ```
 # Dashboard Images
 ### Login Page
-![Dashboard Images](<login-page.png>) 
+![Dashboard Images](<login.png>) 
 ### Landing page
 ![Dashboard Images](<landing-page.png>) 
 ### Minikube performance
