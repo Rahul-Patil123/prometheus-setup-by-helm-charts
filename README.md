@@ -81,24 +81,16 @@ kubectl get servicemonitor -o yaml > servicemonitor.yaml
 ![Dashboard Images](<Prometheus-Overview-1.png>)
 ![Dashboard Images](<Prometheus-Overview-2.png>) 
 
-💡 Purpose of This Repo
-This repository is intended to:
+## 💡 Purpose of This Repo
+### This repository is intended to:
+- Showcase my understanding of Kubernetes-native monitoring
+- Demonstrate Helm-based deployment practices
+- Help others see what’s actually installed by kube-prometheus-stack
 
-Showcase my understanding of Kubernetes-native monitoring
+## 🛠 Tools Used
+- Windows 11
+- Minikube with Docker driver
+- kubectl
+- Helm
 
-Demonstrate Helm-based deployment practices
-
-Help others see what’s actually installed by kube-prometheus-stack
-
-🛠 Tools Used
-Windows 11
-
-Minikube with Docker driver
-
-kubectl
-
-Helm
-
-GitHub
-
-Thanks for checking this out!
+# Thanks for checking this out!
