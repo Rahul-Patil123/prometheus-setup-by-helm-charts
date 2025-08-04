@@ -68,18 +68,18 @@ kubectl get servicemonitor -o yaml > servicemonitor.yaml
 ```
 # Dashboard Images
 ### Login Page
-![Dashboard Images](<Screenshot 2025-08-04 222017.png>) 
+![Dashboard Images](<login-page.png>) 
 ### Landing page
-![Dashboard Images](<Screenshot 2025-08-04 204510.png>) 
+![Dashboard Images](<landing-page.png>) 
 ### Minikube performance
-![Dashboard Images](<Screenshot 2025-08-04 204957.png>) 
-![Dashboard Images](<Screenshot 2025-08-04 205425.png>) 
-![Dashboard Images](<Screenshot 2025-08-04 205503.png>) 
-### Some additional dashboards
-![Dashboard Images](<Screenshot 2025-08-04 205540.png>) 
-![Dashboard Images](<Screenshot 2025-08-04 205933.png>) 
-![Dashboard Images](<Screenshot 2025-08-04 205959.png>) 
-![Dashboard Images](<Screenshot 2025-08-04 221947.png>)
+![Dashboard Images](<minikube-ip.png>) 
+![Dashboard Images](<minikube-performance-1.png>) 
+![Dashboard Images](<minikube-performance-2.png>) 
+### Some additional dashboards (API server and Prometheus)
+![Dashboard Images](<Api-server-1.png>) 
+![Dashboard Images](<Api-server-2.png>) 
+![Dashboard Images](<Prometheus-Overview-1.png>)
+![Dashboard Images](<Prometheus-Overview-2.png>) 
 
 💡 Purpose of This Repo
 This repository is intended to:
