@@ -92,5 +92,5 @@ kubectl get servicemonitor -o yaml > servicemonitor.yaml
 - Minikube with Docker driver
 - kubectl
 - Helm
-
+---
 # Thanks for checking this out!
