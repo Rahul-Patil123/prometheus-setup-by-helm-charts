@@ -85,7 +85,7 @@ kubectl get servicemonitor -o yaml > servicemonitor.yaml
 ### This repository is intended to:
 - Showcase my understanding of Kubernetes-native monitoring
 - Demonstrate Helm-based deployment practices
-- Help others see what’s actually installed by kube-prometheus-stack
+- Help others see what’s installed by kube-prometheus-stack
 
 ## 🛠 Tools Used
 - Windows 11
